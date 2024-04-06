@@ -1,10 +1,11 @@
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import NavScrollExample from './components/Navbar';
 
 function App() {
   return (
     <div >
-     <p>Hello</p>
+    <NavScrollExample/>
     </div>
   );
 }
