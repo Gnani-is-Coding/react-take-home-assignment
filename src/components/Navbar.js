@@ -8,7 +8,7 @@ function NavScrollExample() {
   return (
     <Navbar expand="lg" style={{ backgroundColor: '#33107a', color: '#ffffff' }}>
       <Container fluid>
-        <Navbar.Brand href="#" style={{ color: '#ffffff' }}><span className="badge text-bg-secondary fs-6">ReactBootstrap.com </span></Navbar.Brand>
+        <Navbar.Brand href="#" style={{ color: '#ffffff' }}><span className="badge text-bg-secondary fs-6">IndigoLearn.com </span></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
