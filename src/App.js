@@ -3,6 +3,7 @@ import './App.css';
 import NavScrollExample from './components/Navbar';
 import BecomeAcc from './components/BecomeAcc';
 import ApplyForm from './components/ApplyForm';
+import WhyChooseUS from './components/WhyChooseUs';
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
       <div className='col-sm-12 col-lg-6 '><ApplyForm/></div>
       </div>
     </div>
+
+    <WhyChooseUS/>
     </div>
   );
 }

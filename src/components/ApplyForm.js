@@ -18,7 +18,7 @@ function ApplyForm() {
     
     return(
         <div className="mx-auto p-4 text-center rounded border-top border-4 border-primary  shadow" style={{'width':'95%'}}>
-            <h1 className="w-100 text-primary fs-6">Apply to be  an ACCA! Get in touch</h1>
+            <h1 className="w-100 text-primary-emphasis fs-6">Apply to be  an ACCA! Get in touch</h1>
             <form onSubmit={(e) => onSubmit(e)}>
                 <input type="text" id="inputPassword5" className="form-control my-1" placeholder="Name" aria-describedby="passwordHelpBlock" value={details.name} onChange={(e) => inputName(e)}/>
                 <input type="email" id="inputPassword5" className="form-control my-1" placeholder="Email" aria-describedby="passwordHelpBlock" value={details.email} onChange={(e) => setDetails(prevState=> { return {...prevState, email: e.target.value}})}/>
