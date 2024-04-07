@@ -12,6 +12,7 @@ export function ACCAPrep() {
                 </h4>
                 <p className="fw-semibold fs-6">Sign up and get access to latest course content</p>
                 <button type="button" className="btn btn-danger">Sign Up</button>
+                <p className="fw-semibold fs-6 mt-5">Developed By <span className="badge text-bg-danger">Gnani </span></p>
             </div>
 
             <div className="mt-5 col-sm-12 col-lg-6">
