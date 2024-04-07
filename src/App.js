@@ -5,6 +5,7 @@ import BecomeAcc from './components/BecomeAcc';
 import ApplyForm from './components/ApplyForm';
 import WhyChooseUS from './components/WhyChooseUs';
 import { AccEligibility } from './components/AccEligibility';
+import { LearnAcc } from './components/LearnInACC';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
 
     <WhyChooseUS/>
     <AccEligibility/>
+    <LearnAcc/>
     </div>
   );
 }

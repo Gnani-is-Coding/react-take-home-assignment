@@ -6,7 +6,7 @@ import { SiCodeceptjs } from "react-icons/si";
 
 export const AccEligibility = () => {
     return(
-        <div className="d-flex justify-content-center px-3 flex-wrap">
+        <div className="d-flex justify-content-center px-3 flex-wrap mt-4">
             <div className="p-2 shadow m-1 text-center rounded border-top border-4 border-secondary" style={{'width':'260px', 'height':'90px'}}>
                 <h5>Levels</h5>
                     <div className="d-flex justify-content-center align-center w-100 mt-2">
