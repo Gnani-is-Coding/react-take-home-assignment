@@ -4,6 +4,7 @@ import NavScrollExample from './components/Navbar';
 import BecomeAcc from './components/BecomeAcc';
 import ApplyForm from './components/ApplyForm';
 import WhyChooseUS from './components/WhyChooseUs';
+import { AccEligibility } from './components/AccEligibility';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
     </div>
 
     <WhyChooseUS/>
+    <AccEligibility/>
     </div>
   );
 }
