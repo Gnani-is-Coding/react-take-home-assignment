@@ -12,7 +12,7 @@ function BecomeAcc() {
             <p className="lh-sm fw-semibold fs-6">This is a long paragraph written to show how the
              line-height of an element is affected by our utilities.</p>
             
-            <div className="d-flex mt-5 flex-wrap justify-content-around">
+            <div className="d-flex mt-2 flex-wrap justify-content-around">
             
                 <div className=" card shadow m-1" style={{'width':'180px', 'height':'80px'}}>
                     <div className="card-body d-flex align-center ">
@@ -52,7 +52,7 @@ function BecomeAcc() {
             
             </div>
 
-            <div className="d-flex mt-4">
+            <div className="d-flex mt-2">
                 <button type="button" className="btn btn-primary m-1">Become ACCA</button>
                 <button type="button" className="btn btn-danger m-1">Join Now</button>
             </div>
