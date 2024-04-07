@@ -15,7 +15,6 @@ function ApplyForm() {
     const onSubmit = (e) => {
         e.preventDefault();
         console.log(details, "details Object");
-        // Add logic to submit form data
     };
 
     const handleCloseModal = () => setShowModal(false);
