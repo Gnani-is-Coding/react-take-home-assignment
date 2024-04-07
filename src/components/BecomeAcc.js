@@ -5,7 +5,7 @@ import { GiRamProfile } from "react-icons/gi";
 function BecomeAcc() {
     return(
         <div className="p-4 lg-w-50">
-           <h3 className="fw-bold">
+           <h3 className="fw-bold text-primary-emphasis">
             Become ACCA
             <small className="text-body-secondary"> in 18 Months</small>
             </h3>
