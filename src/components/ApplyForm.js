@@ -24,8 +24,11 @@ function ApplyForm() {
                 <input type="email" id="inputPassword5" className="form-control my-1" placeholder="Email" aria-describedby="passwordHelpBlock" value={details.email} onChange={(e) => setDetails(prevState=> { return {...prevState, email: e.target.value}})}/>
                 <input type="number" id="inputPassword5" className="form-control my-1" placeholder="Phone Number" aria-describedby="passwordHelpBlock"  value={details.number} onChange={(e) => setDetails(prevState=> { return {...prevState, number: e.target.value}})}/>
                 
-                <button type="submit" className="btn btn-primary w-100 mt-4">Request a Callback</button>
+                <button type="button" className="btn btn-primary w-100 mt-4"  data-bs-toggle="modal" data-bs-target="#exampleModal">Request a Callback</button>
+
             </form>
+
+            
         </div>
     )
 }

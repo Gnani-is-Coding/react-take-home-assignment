@@ -9,7 +9,7 @@ export function Placement() {
             </h4>
             <hr className="border border-2 border-primary mx-auto opacity-100" style={{'width':'100px', 'margin-top':'-2px'}}/>
         
-        <div className="pl-lg-8" style={{'margin-top':'35px','padding-left': '35px'}}>
+        <div className="pl-5" style={{'margin-top':'35px','padding-left': '35px'}}>
             <h5 className="text-black mt-2">Resume Building</h5>
             <p className="fw-semibold">We Help you in Building a solid resume</p>
 

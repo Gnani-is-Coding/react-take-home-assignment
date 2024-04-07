@@ -7,6 +7,7 @@ import WhyChooseUS from './components/WhyChooseUs';
 import { AccEligibility } from './components/AccEligibility';
 import { LearnAcc } from './components/LearnInACC';
 import { Placement } from './components/Placement';
+import { ACCAPrep } from './components/ACCAJourney';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
     <AccEligibility/>
     <LearnAcc/>
     <Placement/>
+    <ACCAPrep/>
     </div>
   );
 }
