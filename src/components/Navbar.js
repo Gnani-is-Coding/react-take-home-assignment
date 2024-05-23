@@ -28,7 +28,7 @@ function NavScrollExample() {
             <div className='me-2'>
             <CgProfile/>
             </div>
-            <div className=' fw-bold'>Login/SignUp</div>
+            <div className='fw-bold w-5'>Login/SignUp</div>
           </div>
         </Navbar.Collapse>
       </Container>
