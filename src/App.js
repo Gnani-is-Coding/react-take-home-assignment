@@ -13,7 +13,7 @@ function App() {
   return (
     <div className='mb-4'>
     <NavScrollExample/>
-    <div className='mb-4 px-lg-4 pt-lg-4' style={{"backgroundColor": '#f3f8fe'}}>
+    <div id="action1" className='mb-4 px-lg-4 pt-lg-4' style={{"backgroundColor": '#f3f8fe', paddingTop: '60px'}}>
       <div className='row d-lg-flex align-items-lg-center'>
       <div className='col-sm-12 col-lg-6 '><BecomeAcc/></div>
       <div className='col-sm-12 col-lg-6 '><ApplyForm/></div>

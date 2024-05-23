@@ -6,7 +6,7 @@ import { CgProfile } from "react-icons/cg";
 
 function NavScrollExample() {
   return (
-    <Navbar expand="lg" style={{ backgroundColor: '#33107a', color: '#ffffff' }}>
+    <Navbar expand="lg" style={{ backgroundColor: '#33107a', color: '#ffffff', position:'fixed',zIndex:'1', width:'100%'}} >
       <Container fluid>
         <Navbar.Brand href="#" style={{ color: '#ffffff' }}><span className="badge text-bg-secondary fs-6">IndigoLearn.com </span></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
@@ -18,9 +18,9 @@ function NavScrollExample() {
           >
             <Nav.Link href="#action1" style={{ color: '#ffffff' }} className='text-white fw-semibold'>Home</Nav.Link>
             <Nav.Link href="#action2" style={{ color: '#ffffff' }} className='text-white fw-semibold'>ACC</Nav.Link>
-            <Nav.Link href="#action2" style={{ color: '#ffffff' }} className='text-white fw-semibold'>Placements</Nav.Link>
+            <Nav.Link href="#action3" style={{ color: '#ffffff' }} className='text-white fw-semibold'>Placements</Nav.Link>
             <Nav.Link href="#action2" style={{ color: '#ffffff' }} className='text-white fw-semibold'>Alumni</Nav.Link>
-            <Nav.Link href="#action2" style={{ color: '#ffffff' }} className='text-white fw-semibold'>About Us</Nav.Link>
+            <Nav.Link href="#action4" style={{ color: '#ffffff' }} className='text-white fw-semibold'>About Us</Nav.Link>
             
            
           </Nav>

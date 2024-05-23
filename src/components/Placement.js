@@ -3,7 +3,7 @@
 
 export function Placement() {
     return(
-        <div style={{'backgroundColor':'#f5edff'}} className="mt-3 p-4 px-8 mb-5">
+        <div id="action3" style={{'backgroundColor':'#f5edff'}} className="mt-3 p-4 px-8 mb-5">
             <h4 className="text-center fw-bold text-body-primary ">
             100% Placement Assistance
             </h4>
