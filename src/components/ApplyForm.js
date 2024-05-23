@@ -14,7 +14,7 @@ function ApplyForm() {
     }
 
     const onSubmit = (e) => {
-        // e.preventDefault()
+        e.preventDefault()
         if ( details.name === '' || details.email === '' || details.number === '') {
             setErrorMsg(true)
         } else {
